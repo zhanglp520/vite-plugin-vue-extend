@@ -1,0 +1,56 @@
+{
+    "name": "@ainiteam/vite-plugin-vue-extend",
+    "version": "1.0.0",
+    "description": "@ainiteam/vite-plugin-vue-extend",
+    "private": false,
+    "type": "module",
+    "main": "dist/index.umd.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.umd.js",
+            "import": "./dist/index.es.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "vite build",
+        "lint": "eslint --ext .ts",
+        "lint-fix": "eslint --ext .ts --fix",
+        "preinstall": "npx only-allow pnpm"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "keywords": [
+        "vite",
+        "vue",
+        "stup",
+        "vite-plugin"
+    ],
+    "author": {
+        "name": "土豆哥",
+        "email": "zhanglp15229380174@163.com",
+        "url": "https://github.com/zhanglp520/vite-plus-extend.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhanglp520/vite-plus-extend.git"
+    },
+    "bugs": {
+        "url": "https://github.com/zhanglp520/vite-plus-extend/issues"
+    },
+    "license": "ISC",
+    "workspaces": [
+        "packages/**",
+        "examples"
+    ],
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.3.4"
+    }
+}
