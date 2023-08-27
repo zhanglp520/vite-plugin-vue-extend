@@ -33,19 +33,19 @@
     "author": {
         "name": "土豆哥",
         "email": "zhanglp15229380174@163.com",
-        "url": "https://github.com/zhanglp520/vite-plus-extend.git"
+        "url": "https://quick.ainiteam.com"
     },
     "publishConfig": {
         "access": "public"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zhanglp520/vite-plus-extend.git"
+        "url": "https://github.com/zhanglp520/vite-plugin-vue-extend.git"
     },
     "bugs": {
-        "url": "https://github.com/zhanglp520/vite-plus-extend/issues"
+        "url": "https://github.com/zhanglp520/vite-plugin-vue-extend.git/issues"
     },
-    "license": "ISC",
+    "license": "MIT",
     "workspaces": [
         "packages/**",
         "examples"
